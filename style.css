@@ -1,0 +1,559 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+.padding-both{
+    margin: 30px 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;;
+}
+
+.logo{
+    width: 95px;
+    height: 48px;
+    
+}
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitenav li{
+    list-style: none; /* . ghula vanish krte*/
+    margin-left: 20px;
+    
+
+ }
+ .sitenav li a{
+    text-decoration: none; /*to remove underlines */
+    font-size: 20px;
+    font-weight: 500;
+    color:var( --front--primary-color) ;
+   
+ }
+
+ .cv{
+    width: 155px;
+    height: 23px;
+    background-color:  var(--orange-color) ;
+    text-align: center;
+    padding: 5px 0;;
+    border-radius: 3px;
+    overflow: hidden;
+ }
+
+ 
+ .name-dis{
+    padding: 50px 0px;
+ }
+
+ .name-dis h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var( --front--primary-color);
+ }
+
+ .name-dis span{
+    color:var(--orange-color);
+   
+ }
+ .name-dis p{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 23px 0;
+ 
+    color: var( --front--primary-color);
+ }
+ .design h3{
+    font-size: 22px;
+    font-weight: 200;
+   
+    color: var( --front--primary-color);
+ }
+ .design span{
+    color:var(--orange-color);
+    
+   
+   
+ }
+ .po-sign{
+    background-color:var(--orange-color) ;
+    color: var( --front--primary-color);
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: flex;
+    gap: 5px;
+   
+    width: 120px;
+ }
+ .po-sign h1{
+    font-size: 20px;
+
+ }
+ .check-icon{
+    
+    width: 22px;
+    height: 22px;
+}
+.hire h1{
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+.button{
+    border-radius: 30px;
+    background-color:#4e4c49; 
+    display: flex;
+    gap:10px;
+ 
+    color: var( --front--primary-color);
+    border: 2px solid white;
+    margin: 20px 0px;
+    width: 250px;
+    
+}
+.banner-image img{
+    background-color: #c17b3e;
+    border-radius: 70%;
+    width: 300px;
+    height: 350px;
+    margin: 40px 0px;
+    border:2px solid #4d2c05;
+   
+}
+
+
+    .social-link{
+   text-decoration: none;
+   color: #8a8484;
+   font-size: 28px;
+   display:inline-block; /* link ghulak padding dewar jnno eta kora lage, na hoi paadding nibe na */
+
+   padding: 4px 10px;
+   border-radius: 50%;
+   
+   margin: 8px 0px;
+   
+}
+
+.about-me-des{
+  padding: 40px 0px;
+}
+
+.about-me-des h1{
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 55px;
+  color: var( --front--primary-color);
+}
+.about-me-des p{
+  font-size: 20px;
+  line-height: 20px;
+  margin: 15px 0;
+
+  color: var( --front--primary-color);
+}
+
+.rating{
+  text-align: right;
+  font-size: 25px;
+  color:var(--orange-color) ;
+}
+.ex-info{
+    text-align: right;
+}
+.ex-info h1{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 55px;
+    color: var( --front--primary-color);
+ }
+ .ex-info p{
+    font-size: 20px;
+    line-height: 20px;
+    margin: 15px 0;
+ 
+    color: var( --front--primary-color);
+
+ }
+
+ .experience-area {
+   background-image: linear-gradient(to right,rgb(43, 37, 49),rgb(61, 54, 28));
+   
+   color: var( --front--primary-color);
+   margin: 80px 0px;
+
+
+ } 
+
+ .my-experience h3{
+   font-size: 22px;
+   font-style: italic;
+   color: var( --front--primary-color);
+   margin: 10px 0px;
+
+
+ } 
+ .my-experience h1{
+   font-size: 40px;
+   font-weight: 600;
+
+   color: var( --front--primary-color);
+   margin: 20px 0px;
+
+
+ } 
+ .my-experience p{
+   font-size: 22px;
+  
+   color: var( --front--primary-color);
+   margin: 10px 0px;
+
+
+ }
+ .expeience-details {
+   width:500px;
+   margin: 60px 0px;
+ }
+ .each-detail{
+   margin: 30px 0px;
+ }
+ .detail-year{
+
+   display: flex;
+   justify-content: space-between;
+
+
+ }
+ .detail-year h3{
+   font-style: italic;
+   font-size: 18px;
+ }
+.detail-year h4{
+
+   font-size: 18px;
+   font-weight: 100;
+ }
+ .detail-role h1{
+   padding: 15px 0px;
+   font-size: 28px;
+   font-weight: 600;
+
+ }
+ .line{
+   border: 1px solid #504d4d;
+ }
+ .awards-area{
+   margin: 130px 0px;
+ }
+ .award-tittle{
+   text-align: center;
+ }
+  .award-tittle{
+   margin: 22px 0px;
+
+ }
+ .award-tittle h1{
+   font-size: 40px;
+   font-weight: 600;
+
+   color: var( --front--primary-color);
+   margin: 15px 0px;
+ }
+ .award-tittle p{
+   font-size: 20px;
+   color:  #8a8484;
+   margin: 10px 0px;
+   font-weight: 100;
+ }
+ .award-box{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 40px;
+ }
+ .award-box-in-box{
+  background-color: black;
+  color: var( --front--primary-color);
+  padding: 30px 35px;
+  
+
+ }
+ .award-box-tittle{
+  display: flex;
+  justify-content: space-between;
+
+
+ }
+ .award-box-tittle h3{
+  
+  font-size: 22px;
+  font-weight: 200;
+
+  color: var( --front--primary-color);
+  margin: 15px 0px;
+  
+ }
+ .award-box-tittle h4{
+  
+  font-size: 18px;
+  font-weight: 600;
+
+  color: var( --front--primary-color);
+  margin: 15px 0px;
+ 
+ }
+ .award-box-p p{
+  
+  font-size: 20px;
+  font-weight: 50;
+
+  color: #8a8484;
+  margin: 40px 0px;
+ 
+ }
+
+ .potfolio-tittle{
+  text-align: center;
+ }
+
+ .potfolio-tittle h1{
+  font-size: 35px;
+  margin: 25px;
+  font-weight: 900;
+  color: var( --front--primary-color);
+
+ }
+ .potfolio-tittle p{
+  font-size: 18px;
+  margin: 15px;
+  color: #8a8484;
+ }
+ .portfolio-box{
+ margin: 50px 260px;
+  display: flex;
+  justify-content: space-between;
+ 
+ }
+ 
+ .portfolio-boxs-1{
+  background-color: black;
+  width: 80px;
+  height: 50px;
+  color: #ddd;
+ 
+  font-size: 15px;
+  
+ }
+ .portfolio-boxs-1 h1{
+ margin: 10px 10px;
+ font-weight: 200;
+  
+ }
+ .portfolio-boxs-2{
+  background-color:var(--orange-color);
+  width: 160px;
+  height: 50px;
+  color: #ddd;
+ 
+  font-size: 15px;
+  
+ }
+ .portfolio-boxs-2 h1{
+ margin: 10px 15px;
+ font-weight: 200;
+ }
+ .portfolio-boxs-3{
+  background-color: black;
+  width: 140px;
+  height: 50px;
+  color: #ddd;
+ 
+  font-size: 15px;
+  
+ }
+ .portfolio-boxs-3 h1{
+ margin: 10px 10px;
+ font-weight: 200;
+  
+ }
+ .portfolio-boxs-4{
+  background-color: black;
+  width: 190px;
+  height: 50px;
+  color: #ddd;
+ 
+  font-size: 15px;
+  
+ }
+ .portfolio-boxs-4 h1{
+ margin: 10px 10px;
+ font-weight: 200;
+  
+ }
+ .portfolio-pic-des{
+  margin: 70px 0px;
+  display: flex;
+  justify-content: space-between;
+
+
+ }
+ .portfolio-pic1 img{
+  width: 120%;
+  height: 450px;
+  border: 5px solid rgb(87, 78, 78);
+ 
+ }
+ .portfolio-des1{
+  margin: 30px 0px;
+  width: 50%;
+ }
+ .portfolio-des1 h3{
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px 0px;
+  color: #ddd;
+ }
+ .portfolio-des1 h1{
+  font-size: 30px;
+  font-weight:600 ;
+  margin: 30px 0px;
+  color: #ddd;
+ }
+ .portfolio-des1 p{
+  font-size: 18px;
+  
+  margin: 20px 0px;
+  color: #8a8484;
+ }
+ 
+ 
+
+
+
+
+ .contact-tittle{
+  text-align: center;
+  margin: 50px 0px;
+ }
+ .contact-tittle h3{
+ font-size: 20px;
+ margin: 12px 0px;
+ font-weight: 600;
+ font-style: italic;
+ } 
+ .contact-tittle h1{
+  font-size: 30px;
+  margin: 12px 0px;
+  font-weight: 700;
+  } 
+  .contact-area-box{
+   background-color: #4b3417;
+   margin: 80px 0px;
+  }
+  .custom-form-area{
+    padding: 50px 120px;
+  }
+  .custom-form-area-tittle{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  .custom-form-area input{
+    width:95%;
+    padding: 15px;
+    margin:7px 0;
+    font-size: 15px;
+    box-sizing: border-box; /* so that padding nijer moddei hoi */
+
+
+}
+
+.custom-form-area textarea {
+  width:98%;
+  border: 1px solid #ddd;
+
+  padding: 15px;
+  margin:7px 0;
+  font-size: 15px;
+  box-sizing: border-box; /* so that padding nijer moddei hoi */
+
+
+}
+.attach-file h3{
+  font-size: 15px;
+  color:#8a8484;
+  font-weight: 100;
+
+}
+.red-button{
+  margin: 20px 0px;
+  padding: 15px 40px;
+  background-color:var(--orange-color) ;
+  color: #ddd;
+  font-size: 18px;
+  border: 1px solid var(--orange-color) ;
+}
+.footer{
+  background-color: black;
+  margin-top: 80px;
+  padding: 10px 0px;
+  text-align: center;
+
+}
+.logo2 h1{
+ font-size: 60px;
+ color:var(--orange-color);
+ font-weight: 600;
+ margin: 50px 0px;
+  
+}
+.fotter-site{
+  margin: 40px 400px;
+}
+
+.fotter-site li{
+  list-style: none; /* . ghula vanish krte*/
+  margin-left: 30px;
+  
+
+}
+.fotter-site li a{
+  text-decoration: none; /*to remove underlines */
+  font-size: 20px;
+  font-weight: 500;
+  color:var( --front--primary-color) ;
+}
+.fottor-social-link{
+  text-decoration: none;
+  color:white;
+  font-size: 28px;
+  display:inline-block; /* link ghulak padding dewar jnno eta kora lage, na hoi paadding nibe na */
+
+  padding: 4px 10px;
+  border-radius: 50%;
+  
+  margin: 20px 0px;
+  
+}
+.last-part{
+  text-align: center;
+ margin: 25px 0px;
+}
+.last-part h1{
+  font-size: 22px;
+  font-weight: 300;
+  color: #ddd;
+}
+.last-part span{
+  color:var(--orange-color) ;
+}
+
